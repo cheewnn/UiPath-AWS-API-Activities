@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Bedrock" Version="3.7.301.66" />
+    <PackageReference Include="AWSSDK.BedrockRuntime" Version="3.7.301.66" />
+    <PackageReference Include="AWSSDK.Core" Version="3.7.303.17" />
+    <PackageReference Include="AWSSDK.OpenSearchService" Version="3.7.305.26" />
+    <PackageReference Include="UiPath.Activities.Api" Version="23.10.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Activities">
+      <HintPath>..\..\..\..\AppData\Local\Programs\UiPath\Studio\System.Activities.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Activities.Core.Presentation">
+      <HintPath>..\..\..\..\AppData\Local\Programs\UiPath\Studio\System.Activities.Core.Presentation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Activities.Metadata">
+      <HintPath>..\..\..\..\AppData\Local\Programs\UiPath\Studio\System.Activities.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Activities.Presentation">
+      <HintPath>..\..\..\..\AppData\Local\Programs\UiPath\Studio\System.Activities.Presentation.dll</HintPath>
+    </Reference>
+    <Reference Include="UiPath.Workflow">
+      <HintPath>..\..\..\..\Desktop\dll for 5.0\UiPath.Workflow.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

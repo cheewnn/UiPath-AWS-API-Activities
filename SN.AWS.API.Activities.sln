@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34729.46
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SN.AWSBedrock.Activities", "SN.AWS.API.Activities\SN.AWS.API.Activities.csproj", "{68263B71-07B0-4BB5-9494-6B0A04C1241E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68263B71-07B0-4BB5-9494-6B0A04C1241E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68263B71-07B0-4BB5-9494-6B0A04C1241E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68263B71-07B0-4BB5-9494-6B0A04C1241E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68263B71-07B0-4BB5-9494-6B0A04C1241E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95E88B2C-BD97-46E6-A13D-131B9F6682BA}
+	EndGlobalSection
+EndGlobal
